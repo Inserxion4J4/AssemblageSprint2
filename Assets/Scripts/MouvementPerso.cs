@@ -61,8 +61,8 @@ public class MouvementPerso : MonoBehaviour
 
         cameraTransform = Camera.main.transform;
         moveAction = input.actions["Mouvement"];
-        jumpAction = input.actions["Jump"];
-        shootAction = input.actions["Shoot"];
+        jumpAction = input.actions["Saut"];
+        shootAction = input.actions["Tir"];
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
