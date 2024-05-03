@@ -4760,7 +4760,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 406463634}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.363224, y: -0.004273061, z: -0.0016658729, w: 0.9316906}
+  m_LocalRotation: {x: -0.36322394, y: -0.0042730425, z: -0.001665865, w: 0.93169063}
   m_LocalPosition: {x: -1.2013855, y: -2.3159692, z: -2.115509}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5596,7 +5596,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 476948830}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.36322394, y: -0.0042730346, z: -0.0016658624, w: 0.93169063}
+  m_LocalRotation: {x: -0.36322388, y: -0.0042730407, z: -0.0016658643, w: 0.93169063}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -17019,7 +17019,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1291346673}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.39136335, y: 0.23532963, z: 0.104242735, w: 0.88350904}
+  m_LocalRotation: {x: -0.39136335, y: 0.23532966, z: 0.10424275, w: 0.88350904}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -18839,7 +18839,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1398407931}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.4452322, y: -0.000000040553115, z: -0.000000020164448, w: 0.8954151}
+  m_LocalRotation: {x: -0.44523224, y: 0.000000014843475, z: 0.000000007380705, w: 0.8954151}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -22824,7 +22824,7 @@ MonoBehaviour:
     m_DecelTime: 0.1
     m_InputAxisName: Mouse Y
     m_InputAxisValue: 0
-    m_InvertInput: 0
+    m_InvertInput: 1
     m_MinValue: 0
     m_MaxValue: 1
     m_Wrap: 0
@@ -23535,6 +23535,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1837668287}
+  - component: {fileID: 1837668288}
   m_Layer: 0
   m_Name: perso
   m_TagString: Untagged
@@ -23561,6 +23562,26 @@ Transform:
   - {fileID: 1245311020}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1837668288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837668286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23efc96bfaccd0840a7ed9d632d65363, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  freelookCamera: {fileID: 1801115587}
+  aimAction: {fileID: 0}
+  zoomAction: {fileID: 5217979494550395790, guid: 9e0d9df28be8feb489313d36d8dab74b,
+    type: 3}
+  sensitivity: 1
+  zoomSpeed: 1
+  minZoom: 2
+  maxZoom: 6
 --- !u!1 &1839479723
 GameObject:
   m_ObjectHideFlags: 0
